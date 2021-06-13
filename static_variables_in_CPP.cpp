@@ -19,7 +19,6 @@ class Fun{
 //Static member variable declaration works similar to global variable declaration.
 
 float Fun :: roi = 3.5;
-
 int main(){
     Fun f;
     f.setBalance(5);
