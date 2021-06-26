@@ -23,7 +23,7 @@ class Complex{
             a = c.a;
             b = c.b;
             cout<<"Inside the copy constructor..."<<endl;
-            cout<<"Value of a: "<<c.a<<endl<<"Value of b: "<<c.b<<endl;
+            cout<<"Value of a: "<<a<<endl<<"Value of b: "<<b<<endl;
         }
 };
 
