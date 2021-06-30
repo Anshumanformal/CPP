@@ -21,7 +21,7 @@ class B{
     friend void friendFunction(A,B);
 };
 
-void fun(A a,B b){
+void friendFunction(A a,B b){
     cout<<"Sum of member variables a and b of class A and class B respectively : "<<a.a + b.b<<endl;
 }
 

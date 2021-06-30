@@ -4,9 +4,9 @@ using namespace std;
 class Fun{
     private:
         int balance;
-        static float roi;
+        static float roi;   //Static member variable.
     
-    public : 
+    public: 
         void setBalance(int b){
             balance = b;
         }        
