@@ -10,7 +10,7 @@ void fun1(int x){
     cout<<endl<<x<<endl;
 }
 
-//Call by address.
+//Call by address or call by pointers.
 void fun2(int *x){
     cout<<endl<<*x<<endl;
 }
@@ -24,7 +24,7 @@ void fun3(int &x){
 int main(){
     int a = 3;
     fun1(a); //Call by value.
-    fun2(&a); //Call by address.
-    fun3(a); //Call by reference.
+    fun2(&a); //Call by address or call by pointers. // Memory is allocated for both actual argument and formal argument.
+    fun3(a); //Call by reference. // Here, actual and formal arguments share the same allocated memory.
     return 0;
 }
