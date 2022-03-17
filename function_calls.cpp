@@ -1,9 +1,9 @@
 #include<iostream>
 using namespace std;
 
-void fun1(int);
-void fun2(int*);
-void fun3(int &);
+// void fun1(int);
+// void fun2(int*);
+// void fun3(int &);
 
 //Call by value.
 void fun1(int x){
