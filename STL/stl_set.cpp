@@ -1,7 +1,6 @@
 // Set implementation in C++.
 
 // It stores only unique elements.
-// There is only insert or delete operation in set.
 // Elements are fetched in sorted order.
 
 // Set is slower than unordered set.

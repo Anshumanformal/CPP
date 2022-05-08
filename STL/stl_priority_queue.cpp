@@ -25,7 +25,7 @@ int main() {
   maxi.push(2);
   maxi.push(0);
 
- // Printing the max -heap priority queue.
+ // Printing the max heap priority queue.
  int n = maxi.size(); 
   for(int i = 0; i < n; i++){
     cout << maxi.top() << " ";
@@ -50,6 +50,6 @@ int main() {
   //Check if the priority queue is empty or not.
   // 1 is true, 0 is false.
   cout << "Max heap priority queue is empty : " << maxi.empty() << endl;
-  cout << "Max heap priority queue is empty : " << mini.empty() << endl;
+  cout << "Min heap priority queue is empty : " << mini.empty() << endl;
 
 } 

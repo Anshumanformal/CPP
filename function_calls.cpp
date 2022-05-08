@@ -16,7 +16,7 @@ void fun2(int *x){
 }
 
 //Call by reference.
-void fun3(int &x){
+void fun3(int &x){ // we can also write 'int &x'. Since same memory address is pointed, we can either use pointer notation, or the address of notation.
     cout<<endl<<x<<endl;
 }
 
