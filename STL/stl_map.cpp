@@ -5,6 +5,9 @@
 // Other key can also point to the same value - many to one relationship.
 
 // By default, a map is a sorted map. 
+// Map stores values on the basis of comparison. Hence, all data types can be used as keys in maps.
+// On the other hand, unordered_map inserts keys based on hash function. Since, hash function is defined only for 
+// built-in data types hence, unordered_map<pair<int,int>> is not possible.
 
 #include <iostream>
 #include <map>

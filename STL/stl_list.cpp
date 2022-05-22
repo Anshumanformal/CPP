@@ -38,4 +38,9 @@ int main() {
   cout << "Size of list : " << endl;
   cout << l.size() << endl << endl;
 
+  // Front - returns a reference to the front element in the list.
+  // front() is different from begin() as begin() returns a bidirectional iterator pointing to the first element.
+  // Note : An iterator can move back and forth but a reference is an address. Hence, the difference.
+  cout << "Front of the list : " << l.front();
+
 } 

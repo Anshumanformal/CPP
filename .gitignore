@@ -1,3 +1,5 @@
 a.out
 a.exe
+*.exe
+.vscode
 incomplete_programs(cut them from here and paste to the respective directory)
