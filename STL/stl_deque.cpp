@@ -3,6 +3,8 @@
 
 /*
 In deque, we can insert and remove elements from both front and back.
+It's full form is Double Ended Queue.
+It is similar to a vector.
 */
 
 #include <iostream>
